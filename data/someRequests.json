@@ -1,0 +1,36 @@
+[
+    {
+        "uri": "/sqlrest/PRODUCT/51",
+        "method": "GET",
+        "headers": {
+            "User-Agent": "Request-Promise",
+            "Content-Type": "application/xml"
+        }
+    },
+    {
+        "uri": "/sqlrest/PRODUCT/52",
+        "method": "GET",
+        "headers": {
+            "User-Agent": "Request-Promise",
+            "Content-Type": "application/xml"
+        }
+    },
+    {
+        "uri": "/sqlrest/PRODUCT",
+        "method": "POST",
+        "body" : "<PRODUCT><ID>56</ID><NAME>Test</NAME><PRICE>224</PRICE></PRODUCT>",
+        "headers": {
+            "User-Agent": "Request-Promise",
+            "Content-Type": "application/xml"
+        }
+    },
+    {
+        "uri": "/sqlrest/PRODUCT",
+        "method": "POST",
+        "body" : "<PRODUCT><ID>56</ID><NAME>Test</NAME><PRICE>224</PRICE></PRODUCT>",
+        "headers": {
+            "User-Agent": "Request-Promise",
+            "Content-Type": "application/xml"
+        }
+    }
+]
